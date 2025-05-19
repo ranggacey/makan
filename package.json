@@ -1,0 +1,23 @@
+{
+  "name": "bruteforce-attack",
+  "version": "1.0.0",
+  "description": "Advanced bruteforce attack tool",
+  "main": "bruteforce.js",
+  "scripts": {
+    "start": "node bruteforce.js"
+  },
+  "keywords": [
+    "security",
+    "web-attack",
+    "penetration-testing",
+    "educational"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "*",
+    "worker-threads": "^1.0.0"
+  }
+}

